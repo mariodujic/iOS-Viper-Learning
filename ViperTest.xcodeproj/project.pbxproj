@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		09A3E622006069212E1B6E11 /* Pods_ViperTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF55F59DEAB3EDBC3D802C8A /* Pods_ViperTest.framework */; };
 		4950B0E1E48AB2AAEC7AA47A /* CustomProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4950BF1A2DA3EFF712036032 /* CustomProtocols.swift */; };
-		4950B50DDCE941424FA3D2DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4950B299A3E781EA4F303EC3 /* LaunchScreen.storyboard */; };
 		4950B5430F557A75624048B3 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4950B5674591B2020D24BDB2 /* Presenter.swift */; };
 		4950B73D261B50615A063502 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4950BA3365E282B511584748 /* Interactor.swift */; };
 		4950B7E38C34A6C1A7267DE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4950BE860CFDE5B535BE1C69 /* AppDelegate.swift */; };
@@ -54,7 +53,6 @@
 		4950B76B563DC072C94E3D4C /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppConstants.swift; path = Utils/AppConstants.swift; sourceTree = "<group>"; };
 		4950B7B266ECAA35FD4E7A89 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = FeatureOne/ViewController.swift; sourceTree = "<group>"; };
 		4950B7F3381DD6B53E4C1EA0 /* Cat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cat.swift; path = FeatureOne/Cat.swift; sourceTree = "<group>"; };
-		4950B93761E2099D55B45584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4950BA3365E282B511584748 /* Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Interactor.swift; path = FeatureOne/Interactor.swift; sourceTree = "<group>"; };
 		4950BC12DEFE19BB2C98D229 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Router.swift; path = FeatureOne/Router.swift; sourceTree = "<group>"; };
 		4950BCC66974BB5D7EB46370 /* ViperTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViperTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,7 +121,6 @@
 			children = (
 				4950BD97518C2CA38C8046AD /* Info.plist */,
 				4950B6769F193AAB2C172969 /* Assets.xcassets */,
-				4950B299A3E781EA4F303EC3 /* LaunchScreen.storyboard */,
 				4950BE860CFDE5B535BE1C69 /* AppDelegate.swift */,
 				4950B7F3381DD6B53E4C1EA0 /* Cat.swift */,
 				4950BF1A2DA3EFF712036032 /* CustomProtocols.swift */,
@@ -284,7 +281,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4950BD3556422A25023EC0BC /* Assets.xcassets in Resources */,
-				4950B50DDCE941424FA3D2DE /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,17 +448,6 @@
 			targetProxy = 4950B25836E4EC6F4ACE5C17 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		4950B299A3E781EA4F303EC3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4950B93761E2099D55B45584 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4950B056B618190E314E787A /* Debug */ = {
