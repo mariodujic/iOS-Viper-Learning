@@ -1,8 +1,3 @@
-//
-// Created by ground zero on 26/07/2020.
-// Copyright (c) 2020 TrotterIndependent. All rights reserved.
-//
-
 import Foundation
 import UIKit
 
@@ -23,8 +18,8 @@ class Presenter: ViewToPresenterProtocol {
 }
 
 extension Presenter: InteractorToPresenterProtocol {
-    func noticeFetchedSuccess(noticeModelArray: Array<NoticeModel>) {
-        view?.showNotice(noticeArray: noticeModelArray)
+    func noticeFetchedSuccess(noticeModel: Cat) {
+        view?.showNotice(noticeModel: noticeModel)
     }
 
     func noticeFetchFailed() {

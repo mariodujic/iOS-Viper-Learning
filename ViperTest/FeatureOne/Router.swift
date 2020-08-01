@@ -3,7 +3,7 @@ import UIKit
 class Router: PresenterToRouterProtocol {
 
     static func createModule() -> ViewController {
-        debugPrint("Create module")
+        debugPrint("Created ViewController")
         var view = ViewController()
         var presenter: ViewToPresenterProtocol & InteractorToPresenterProtocol = Presenter()
         var interactor: PresenterToInteractorProtocol = Interactor()

@@ -1,8 +1,3 @@
-//
-// Created by ground zero on 25/07/2020.
-// Copyright (c) 2020 TrotterIndependent. All rights reserved.
-//
-
 import Foundation
 import UIKit
 
@@ -15,7 +10,7 @@ protocol ViewToPresenterProtocol {
 }
 
 protocol PresenterToViewProtocol {
-    func showNotice(noticeArray:Array<NoticeModel>)
+    func showNotice(noticeModel: Cat)
     func showError()
 }
 
@@ -30,6 +25,6 @@ protocol PresenterToInteractorProtocol {
 }
 
 protocol InteractorToPresenterProtocol {
-    func noticeFetchedSuccess(noticeModelArray: Array<NoticeModel>)
+    func noticeFetchedSuccess(noticeModel: Cat)
     func noticeFetchFailed()
 }

@@ -5,20 +5,17 @@ class ViewController: UIViewController, PresenterToViewProtocol {
 
     var presenter: ViewToPresenterProtocol?
 
-    var noticeArrayList: Array<NoticeModel> = Array()
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
         presenter?.startFetchingNotice()
-        // presenter?.showMovieController(navigationController: navigationController!)
     }
 
-    func showNotice(noticeArray: Array<NoticeModel>) {
-        // Do something
+    func showNotice(noticeModel: Cat) {
+        debugPrint(noticeModel.url)
     }
 
     func showError() {
-        // Do something
+        debugPrint("Unable to fetch data")
     }
 }
