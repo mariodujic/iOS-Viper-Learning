@@ -18,7 +18,7 @@ class Presenter: ViewToPresenterProtocol {
     }
 
     func showMovieController(navigationController: UINavigationController) {
-        // router?.pushToMovieScreen(navigationController: navigationController)
+        router?.pushToMovieScreen(navigationController: navigationController)
     }
 }
 

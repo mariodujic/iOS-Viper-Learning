@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		09A3E622006069212E1B6E11 /* Pods_ViperTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF55F59DEAB3EDBC3D802C8A /* Pods_ViperTest.framework */; };
 		4950B054524B149719E5C7A7 /* CustomProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4950B5D5ECC387BDECA07E3F /* CustomProtocols.swift */; };
+		4950B4E6DB1D78356EA7858C /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4950B35493D8FDA7D037F9CF /* Cat.swift */; };
 		4950B50DDCE941424FA3D2DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4950B299A3E781EA4F303EC3 /* LaunchScreen.storyboard */; };
 		4950B5624BA2D885BFAEF7F8 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4950BB056C2D9846B793E2FD /* AppConstants.swift */; };
 		4950B7E38C34A6C1A7267DE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4950BE860CFDE5B535BE1C69 /* AppDelegate.swift */; };
@@ -47,6 +48,7 @@
 		3488BABC644A952039E0F3CF /* Pods-ViperTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperTest.release.xcconfig"; path = "Target Support Files/Pods-ViperTest/Pods-ViperTest.release.xcconfig"; sourceTree = "<group>"; };
 		4950B2263C80CC4CE218900A /* ViperTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperTestTests.swift; sourceTree = "<group>"; };
 		4950B2E9220A84596A480D40 /* Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		4950B35493D8FDA7D037F9CF /* Cat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
 		4950B36A582F2F0C64CC8560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		4950B3FCFC0C946C54735CE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		4950B43C8A6FE28EAB5EEEEE /* ViperTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +134,7 @@
 				4950B2E9220A84596A480D40 /* Interactor.swift */,
 				4950BB056C2D9846B793E2FD /* AppConstants.swift */,
 				4950B47159B5A6C46D74AF6F /* Router.swift */,
+				4950B35493D8FDA7D037F9CF /* Cat.swift */,
 			);
 			path = ViperTest;
 			sourceTree = "<group>";
@@ -427,6 +430,7 @@
 				4950BFFCE6DDBBEBE5BA2AE0 /* Interactor.swift in Sources */,
 				4950B5624BA2D885BFAEF7F8 /* AppConstants.swift in Sources */,
 				4950BE70DBC47E820F292C1A /* Router.swift in Sources */,
+				4950B4E6DB1D78356EA7858C /* Cat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

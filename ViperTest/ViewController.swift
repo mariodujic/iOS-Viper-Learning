@@ -11,7 +11,7 @@ class ViewController: UIViewController, PresenterToViewProtocol {
         super.viewDidLoad()
 
         presenter?.startFetchingNotice()
-        presenter?.showMovieController(navigationController: navigationController!)
+        // presenter?.showMovieController(navigationController: navigationController!)
     }
 
     func showNotice(noticeArray: Array<NoticeModel>) {
