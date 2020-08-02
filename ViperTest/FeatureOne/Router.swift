@@ -4,10 +4,10 @@ class Router: PresenterToRouterProtocol {
 
     static func createModule() -> ViewController {
         debugPrint("Created ViewController")
-        var view = ViewController()
+        let view = ViewController()
         var presenter: ViewToPresenterProtocol & InteractorToPresenterProtocol = Presenter()
         var interactor: PresenterToInteractorProtocol = Interactor()
-        var router: PresenterToRouterProtocol = Router()
+        let router: PresenterToRouterProtocol = Router()
 
         view.presenter = presenter
         presenter.view = view

@@ -7,11 +7,14 @@ protocol ViewToPresenterProtocol {
     var router: PresenterToRouterProtocol? { get set }
     func startFetchingNotice()
     func showMovieController(navigationController: UINavigationController)
+    func getScreenWidth() -> CGFloat
+    func getScreenHeight() -> CGFloat
 }
 
 protocol PresenterToViewProtocol {
     func showNotice(noticeModel: Cat)
     func showError()
+    func getFrame() -> CGRect
 }
 
 protocol PresenterToRouterProtocol {

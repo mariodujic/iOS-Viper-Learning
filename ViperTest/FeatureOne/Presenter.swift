@@ -2,6 +2,7 @@ import Foundation
 import UIKit
 
 class Presenter: ViewToPresenterProtocol {
+
     var view: PresenterToViewProtocol?
 
     var interactor: PresenterToInteractorProtocol?
@@ -18,6 +19,15 @@ class Presenter: ViewToPresenterProtocol {
 }
 
 extension Presenter: InteractorToPresenterProtocol {
+
+    func getScreenWidth() -> CGFloat {
+        return (view?.getFrame().width)!
+    }
+
+    func getScreenHeight() -> CGFloat {
+        return (view?.getFrame().height)!
+    }
+
     func noticeFetchedSuccess(noticeModel: Cat) {
         view?.showNotice(noticeModel: noticeModel)
     }
@@ -25,4 +35,5 @@ extension Presenter: InteractorToPresenterProtocol {
     func noticeFetchFailed() {
         view?.showError()
     }
+
 }
